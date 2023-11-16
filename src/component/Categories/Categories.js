@@ -310,13 +310,13 @@ export default function Categories() {
 
           <div className="footer-conditions">
             <div className="terms">
-              <a href="">Terms and Privacy Notice</a>
+              <a href="/">Terms and Privacy Notice</a>
             </div>
             <div className="feedback">
-              <a href="">Send us feedback</a>
+              <a href="/">Send us feedback</a>
             </div>
             <div className="help">
-              <a href="">Help</a>
+              <a href="/">Help</a>
             </div>
 
             <div className="footer-details">

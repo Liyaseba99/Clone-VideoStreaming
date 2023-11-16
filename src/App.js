@@ -6,7 +6,6 @@ import Movies from "./component/Movies/movies.js";
 import More from "./component/MoreDetails/moreDetails.js";
 import SeeMore from "./component/SeeMore/seeMore";
 import MovieDetail from "./component/MovieDetails/movieDetail.js";
-import Error from "./component/Error.js";
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
           <Route path="/More" exact Component={More} />
           <Route path="/SeeMore" exact Component={SeeMore} />
           <Route path="/MovieDetail" exact Component={MovieDetail} />
-          <Route path="/*" exact Component={Error} />
         </Routes>
       </Router>
       {/* <Error /> */}

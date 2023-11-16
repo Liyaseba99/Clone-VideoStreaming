@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import HeaderIndex from "./component/Header/headerIndex.js";
+import Categories from "./component/Categories/Categories.js";
+import Movies from "./component/Movies/movies.js";
+import More from "./component/MoreDetails/moreDetails.js";
+import SeeMore from "./component/SeeMore/seeMore";
+import MovieDetail from "./component/MovieDetails/movieDetail.js";
+import Error from "./component/Error.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        {/* <Route path="/HeaderIndex" Component={HeaderIndex} /> */}
+        <Routes>
+          <Route path="/" exact Component={HeaderIndex} />
+          <Route path="/Categories" exact Component={Categories} />
+          <Route path="/Movies" exact Component={Movies} />
+          <Route path="/More" exact Component={More} />
+          <Route path="/SeeMore" exact Component={SeeMore} />
+          <Route path="/MovieDetail" exact Component={MovieDetail} />
+          <Route path="/*" exact Component={Error} />
+        </Routes>
+      </Router>
+      {/* <Error /> */}
+      {/* <HeaderIndex /> */}
+      {/* <Categories /> */}
+      {/* <Movies /> */}
+      {/* <More /> */}
+      {/* {<SeeMore />} */}
+      {/* <MovieDetail /> */}
+    </>
   );
 }
 

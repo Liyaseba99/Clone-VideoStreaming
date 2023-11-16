@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.header-containerr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /* padding: 10px; */
+}
+.header-left{
+    width: 150px;
+}
+
+.header-leftt a{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-midd{
+    width: 30%;
+    margin-right: 90px;
+}
+.header-midd a{
+    color: rgb(172, 171, 171);
+    font-weight: 600;
+    font-size: 18px;
+}
+.header-list-containerr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(38%);
+}
+
+.header-end-conatinerr{
+    display: flex;
+    justify-content: space-around;
+}
+.header-listt i{
+    margin-left: 5px;
+}
+.header-endd{
+    width: 20%;
+    /* color: gray; */
+    font-weight: 600;
+}
+.header-endd a{
+    color:  rgb(172, 171, 171);
+    font-weight: 600;
+    font-size: 17px;
+}
+.free a{
+    color:  rgb(172, 171, 171);;
+}
+
+/* Banner */
+
+.banner-container{
+    border: 2px solid black;
+    background-image: url(../../Image/home_banner.jpg);
+    background-size: cover;
+    height: 525px;
+    color: white;
+}
+.banner-writing-container{
+    /* background-color: rgba(26, 25, 25, 0.29); */
+    /* border: 2px solid red; */
+    width: 55%;
+    background-image: linear-gradient(to right, black ,rgba(0, 0, 0, 0));
+    border-right:none ;
+    height: 450px;
+    padding-top: 40px;
+}
+.banner-heading p{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: 0;
+    /* border: 2px solid red; */
+}
+.banner-desc{
+    /* border: 2px solid red; */
+    /* margin-right: 40px; */
+    width: 680px;
+    font-size:23px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.banner-btn button{
+    margin-left: 40px;
+    width: 280px;
+    height: 50px;
+    background-color: rgb(42, 123, 189);
+    border: none;
+    margin-top: -10px;
+    border-radius: 2px;
+}
+.banner-btn button a{
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* rental */
+
+.rental-container{
+    border: none;
+    background-image: url(../../Image/rental_banner.jpg);
+    background-size: cover;
+}
+.rental-writing-container{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 300px;
+    padding-top: 120px;
+    margin-left: 30px;
+}
+
+.rental-heading p{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 0;
+    /* border: 2px solid red; */
+}
+.rental-desc{
+    /* border: 2px solid red; */
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.rental-btn{
+    margin-top: 60px;
+}
+
+/* cahnnels */
+
+.channels-container{
+    display: flex;
+}
+.channels-left{
+    width: 50%;
+}
+.channels-right{
+    width: 50%;
+}
+.channels-right-div{
+    margin-right: 60px;
+    padding-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: flex-start;
+}
+.channels-box img{
+    width: 215px;
+    margin-bottom: 5px;
+}
+.channels-left-div{
+    margin-left: 70px;
+    margin-right: 50px;
+    padding-top: 40px;
+}
+.channels-heading{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.channels-desc{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+ /* tv Stick */
+
+ .tvstick-conatiner{
+    background-image: url(../../Image/tv_stick.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+ }
+ .tvstick-writing{
+    position: absolute;
+    right: 0;
+    width: 42%;
+    color: white;
+    padding-right: 60px;
+    margin-top: 90px;
+    padding-left: 00px;
+
+ }
+ .tvstick-heading{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+ }
+ .tvstick-desc{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+ }
+ .tvstick-btn button{
+    /* margin-left: 40px; */
+    width: 280px;
+    height: 50px;
+    background-color: rgb(42, 123, 189);
+    border: none;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.tvstick-btn button a{
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* family */
+
+.family-container{
+    position: relative;
+    background-image: url(../../Image/family-banner.jpg);
+    background-size: cover;
+}
+.family-writing{
+    position: absolute;
+    left: 0;
+    margin-left: 70px;
+    padding-top: 20px;
+    /* border: 2px solid red; */
+}
+.family-desc{
+    font-size: 21px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(42, 40, 40);
+    padding-bottom: 30px;
+    /* height: 300px; */
+}
+.footer-container{
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-conditions{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.footer-conditions div{
+    margin-right: 20px;
+}
+.footer-conditions a{
+    color: rgb(38, 122, 168);
+}
+.footer-details{
+    font-size: 15px;
+    color: #89898d;
+}
+
+ul li{
+    position: relative;
+    /* border: 2px solid red; */
+    
+}
+.dropdown a{
+    font-size: 14px;
+    color: rgb(172, 171, 171);
+}
+
+ul li ul.dropdown li{
+    display: block;
+   transform: translateX(-30px);
+   width: 70px;
+   padding-bottom: 10px;
+}
+ul li ul.dropdown{
+    width: 90px;
+    background-color: rgb(49, 49, 49);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    transform: translate(-7px,7px);
+    
+}
+
+
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.header-list i:hover {
+    transform: rotate(180deg);
+}
+.lang i:hover{
+    transform: rotate(180deg);
+}

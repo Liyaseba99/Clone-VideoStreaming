@@ -13,7 +13,7 @@ function App() {
       <Router>
         {/* <Route path="/HeaderIndex" Component={HeaderIndex} /> */}
         <Routes>
-          <Route path="/" exact Component={HeaderIndex} />
+          <Route path="Clone-VideoStreaming/" exact Component={HeaderIndex} />
           <Route path="/Categories" exact Component={Categories} />
           <Route path="/Movies" exact Component={Movies} />
           <Route path="/More" exact Component={More} />
@@ -21,7 +21,6 @@ function App() {
           <Route path="/MovieDetail" exact Component={MovieDetail} />
         </Routes>
       </Router>
-      {/* <Error /> */}
       {/* <HeaderIndex /> */}
       {/* <Categories /> */}
       {/* <Movies /> */}
